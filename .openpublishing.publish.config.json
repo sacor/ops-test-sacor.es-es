@@ -1,13 +1,14 @@
 {
   "branch_target_mapping": {
     "live": [
-      "Publish"
+      "Publish",
+      "PDF"
     ]
   },
   "branches_to_filter": [
     "master",
     "master-sxs",
-    "live-sxs"
+    "live"
   ],
   "continue_with_document_error": true,
   "contribution_branch_mappings": {
@@ -53,9 +54,9 @@
       }
     }
   ],
-  "git_repository_branch_open_to_public_contributors": null,
+  "git_repository_branch_open_to_public_contributors": "live",
   "git_repository_url_open_to_public_contributors": "https://github.com/sacor/ops-test-sacor.de-de",
-  "need_generate_pdf_url_template": false,
+  "need_generate_pdf_url_template": true,
   "need_preview_pull_request": false,
   "notification_subscribers": [],
   "skip_source_output_uploading": false,
